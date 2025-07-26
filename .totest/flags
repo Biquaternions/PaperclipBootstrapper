@@ -1,0 +1,2 @@
+--add-exports=java.base/jdk.internal.vm.annotation=ALL-UNNAMED
+
