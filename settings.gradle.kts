@@ -1,1 +1,1 @@
-rootProject.name = "PaperclipBoostrapper"
+rootProject.name = "PaperclipBootstrapper"
