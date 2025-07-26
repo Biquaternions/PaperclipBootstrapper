@@ -62,7 +62,7 @@ public class Bootstrapper {
                 throw new RuntimeException(e);
             }
         }
-        Bootstrapper.launchPaperclip(flags.toArray(new String[0]), executablePath.toString());
+        Bootstrapper.launchPaperclip(flags.toArray(new String[0]), executablePath.toString(), args);
     }
 
     private static void cacheBundledFile(String resource, Path destination) {
@@ -80,6 +80,6 @@ public class Bootstrapper {
         return !string.isBlank();
     }
 
-    private static native void launchPaperclip(String[] flags, String jarPath);
+    private static native void launchPaperclip(String[] flags, String jarPath, String[] args);
 
 }
